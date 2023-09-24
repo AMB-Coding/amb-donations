@@ -4,7 +4,7 @@ export function displayMoney(amount: number): string {
 	return amount.toLocaleString('de-DE', {
 		style: 'currency',
 		currency: 'EUR',
-	})
+	});
 }
 
 export function displayMoneyWithSign(amount: number): string {
@@ -12,7 +12,7 @@ export function displayMoneyWithSign(amount: number): string {
 		style: 'currency',
 		currency: 'EUR',
 		signDisplay: 'exceptZero',
-	})
+	});
 }
 
 export function remainingDaysInCurrentMonth(): number {
@@ -24,8 +24,8 @@ export function remainingDaysInCurrentMonth(): number {
  * Checks if the given month, in format month long, year numeric ("April 2020"), is the current month.
  */
 export function isCurrentMonth(month: MonthProps['month']): boolean {
-	return month === new Intl.DateTimeFormat("de-DE", {
-		month: "long",
-		year: "numeric",
+	return month === new Intl.DateTimeFormat('de-DE', {
+		month: 'long',
+		year: 'numeric',
 	}).format(new Date());
 }

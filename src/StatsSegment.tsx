@@ -1,6 +1,5 @@
 import {months} from './stats';
 import {Box, Group, Paper, Progress, SimpleGrid, Text} from '@mantine/core';
-import React from 'react';
 import {displayMoney, displayMoneyWithSign} from './helpers';
 
 const acquired = months.reduce((acc, month) => acc + month.acquired, 0);
