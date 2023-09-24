@@ -9,7 +9,7 @@ export function Donations() {
 		<Center my={'lg'}>
 			<Stack>
 				<DonateButton/>
-				{months.toReversed().map((month) => <Month {...month}/>)}
+				{months.toReversed().map((month) => <Month key={month.month} {...month}/>)}
 
 				<StatsSegments/>
 			</Stack>

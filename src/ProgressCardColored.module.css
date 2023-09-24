@@ -15,11 +15,3 @@
 .stats {
     color: var(--mantine-color-white);
 }
-
-.progressSection {
-    /*background-color: var(--mantine-color-white);*/
-}
-
-.progressTrack {
-    /*background-color: var(--mantine-color-blue-3);*/
-}
