@@ -48,9 +48,10 @@ const donors = new Map<DonatorProps['id'], DonatorInfo>([
 	['439048480783335427', {name: 'HARLEKIN', avatar: '0e6637e3c7b1efe10a82ff1db94dd5e1'}],
 	['279261291682463744', {name: 'Chris BlackWolf', avatar: 'd4c5e0289b625d934cf153472462c150'}],
 	['669973148820832256', {name: 'caunterattack', avatar: 'f0ab4137e0cf0e17f018d3fb35091c63'}],
-	['599236975861694474', {name: 'HecTiics', avatar: '57996a1ac966b3a6eb372fe790f7d84e'}],
+	['599236975861694474', {name: 'HecTiics', avatar: '60ab0ca5419dd2fff52c62d69e6858df'}],
 	['327385716977958913', {name: '[AMB] Gaik', avatar: '9945a101c0b6f0f53bab921d7cd1154b'}],
 	['419180257220755496', {name: 'Corsair', avatar: '3802e7ce36bcb520da8a1cb835fa4a94'}],
+	['285144199702249473', {name: 'Josh707', avatar: '88b19239ce2bce9f991d808200a6f4cc'}],
 ]);
 
 function getAvatarUrl(id: string, avatar: string | null): string {
