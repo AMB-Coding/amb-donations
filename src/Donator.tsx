@@ -30,7 +30,7 @@ const donors = new Map<DonatorProps['id'], DonatorInfo>([
 	['477481223955021866', {name: 'Thommy', avatar: '119d0144f58f45e66dd35ec50b2c8a89'}],
 	['198204581996396545', {name: 'Nameless | Steven', avatar: '5c549a306a7c96eb513a560855af76bf'}],
 	['130094115894329345', {name: 'Maverick Smith', avatar: '5f8ef2f05c1b255ab941f2f6e56dbe77'}],
-	['247342219667701770', {name: 'Asuma', avatar: 'a_49b58635557acbdac2f6aaa8656cfb21'}],
+	['247342219667701770', {name: 'Asuma', avatar: 'a_3f34453f6d861f4ff57e932bc2dc8c4a'}],
 	['728267095384653834', {name: 'Philip M. Thomas', avatar: '34c15d25245853b27f2c737f47ebc44d'}],
 	['474015305086009346', {name: '[AMB] Jack_Blues', avatar: '0afdc362709ca429edd2e4f1ec761622'}],
 	['200031965145989122', {name: 'DEVOBEL', avatar: 'a_54f33c0421c46ff22a0cf7cd941e6b29'}],
