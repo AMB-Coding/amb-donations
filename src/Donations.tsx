@@ -4,8 +4,6 @@ import {months} from './stats';
 import {StatsSegments} from './StatsSegment';
 
 export function Donations() {
-	// console.log([...new Set(months.flatMap((month) => [...month.donors, ...month.boosters]))]);
-
 	return <>
 		<Center my={'lg'}>
 			<Stack>
