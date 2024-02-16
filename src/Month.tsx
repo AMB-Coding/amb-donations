@@ -12,7 +12,7 @@ export type MonthProps = {
 	boosters: string[];
 }
 
-export function Month(props: MonthProps) {
+export function Month(props: Readonly<MonthProps>) {
 	const {month, costs, acquired, donors, boosters} = props;
 
 	const currentMonth = isCurrentMonth(month);
@@ -21,29 +21,29 @@ export function Month(props: MonthProps) {
 		{(month.startsWith('Dezember') || currentMonth) &&
             <Title>{month.substring(month.length - 4)}</Title>
 		}
-		<Card withBorder radius="md" p="xl" className={classes.card}>
+		<Card withBorder radius={'md'} p={'xl'} className={classes.card}>
 			<Stack>
 				<Box>
 					<Group justify={'space-between'}>
-						<Text fz="xs" tt="uppercase" fw={700} className={classes.title}>
+						<Text fz={'xs'} tt={'uppercase'} fw={700} className={classes.title}>
 							{month}
 						</Text>
 						{currentMonth &&
-                            <Badge size="sm">Noch {remainingDaysInCurrentMonth()} Tage</Badge>
+                            <Badge size={'sm'}>Noch {remainingDaysInCurrentMonth()} Tage</Badge>
 						}
 					</Group>
 					<Group>
-						<Text fz="lg" fw={500} className={classes.stats}>
+						<Text fz={'lg'} fw={500} className={classes.stats}>
 							{displayMoney(acquired)} / {displayMoney(costs)}
 						</Text>
-						<Text c={diff > 0 ? 'teal' : 'red'} fz="sm" fw={500}
+						<Text c={diff > 0 ? 'teal' : 'red'} fz={'sm'} fw={500}
 							  className={classes.diff}>{displayMoneyWithSign(diff)}</Text>
 					</Group>
 				</Box>
 				<Progress
 					value={costs > 0 ? acquired / costs * 100 : 100}
-					size="lg"
-					radius="xl"
+					size={'lg'}
+					radius={'xl'}
 					animated={currentMonth}
 				/>
 				<Group justify={'space-between'}>
