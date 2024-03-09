@@ -9,6 +9,8 @@ updates:
     directory: "/" # Location of package manifests
     schedule:
       interval: "monthly"
+    ignore:
+      - dependency-name: "@tanstack/react-query" # Spams too much
 
   # Enable version updates for GitHub Actions
   - package-ecosystem: "github-actions"

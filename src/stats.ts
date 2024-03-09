@@ -307,10 +307,18 @@ export const months: MonthProps[] = [
 	},
 	{
 		month: 'Februar 2024',
-		expenses: 0,
+		expenses: 32.84,
 		costs: 42.60,
 		acquired: 21.11,
 		donors: ['474015305086009346', '735384736436060201', '327385716977958913'],
 		boosters: ['728267095384653834', '130094115894329345'],
 	},
+	{
+		month: 'März 2024',
+		expenses: 0,
+		costs: 42.60,
+		acquired: 0,
+		donors: [],
+		boosters: ['728267095384653834', '130094115894329345'],
+	}
 ];
