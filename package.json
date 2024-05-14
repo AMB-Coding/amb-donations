@@ -9,21 +9,21 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@mantine/core": "^7.6.2",
-    "@mantine/hooks": "^7.6.2",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "@mantine/core": "^7.9.1",
+    "@mantine/hooks": "^7.9.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
   },
   "devDependencies": {
-    "@playwright/test": "^1.42.1",
-    "@types/node": "^20.11.30",
-    "@types/react": "^18.2.67",
-    "@types/react-dom": "^18.2.22",
+    "@playwright/test": "^1.44.0",
+    "@types/node": "^20.12.12",
+    "@types/react": "^18.3.2",
+    "@types/react-dom": "^18.3.0",
     "@vitejs/plugin-react": "^4.2.1",
-    "postcss": "^8.4.37",
-    "postcss-preset-mantine": "1.13.0",
+    "postcss": "^8.4.38",
+    "postcss-preset-mantine": "1.15.0",
     "postcss-simple-vars": "^7.0.1",
-    "typescript": "^5.4.3",
-    "vite": "^5.2.2"
+    "typescript": "^5.4.5",
+    "vite": "^5.2.11"
   }
 }
